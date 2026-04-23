@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ventas Internas (ISM) | Kodland</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link href="images/icon.png" rel="icon" type="image/svg+xml"/>
+  <link href="images/es.png" rel="apple-touch-icon"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="https://www.kodland.org/es"><img src="images/Logo.svg" alt="Kodland logo"></a>
+      <nav>
+        <a class="cta" href="es.html">Volver al inicio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1 class="hero__title">Ventas Internas (ISM)</h1>
+        <p class="hero__subtitle" style="margin-top:20px;">Guía para la correcta gestión de tickets de ISM, seguimiento de pagos, balances, casos no resueltos y cómo actuar ante situaciones económicas con estudiantes y familias.</p>
+        <ul>
+            <li class="hero__subtitle">Gestión de tickets de ISM</li>
+            <li class="hero__subtitle">Seguimiento de pagos de estudiantes</li>
+            <li class="hero__subtitle">Consulta de balances</li>
+            <li class="hero__subtitle">Casos no resueltos</li>
+            <li class="hero__subtitle">Situaciones económicas con familias</li>
+            <li class="hero__subtitle">Proceso de renovaciones</li>
+        </ul>
+      </div>
+      <div>
+        <img src="images/ism.png" alt="ISM ilustración" width="150" loading="lazy" style="border-radius:12px;margin-left:80px;margin-bottom:40px;height:auto;object-fit:contain;"/>
+      </div>
+    </section>
+
+    <section class="main" aria-labelledby="sections-title">
+      <h2 id="sections-title">Procedimientos ISM</h2>
+      <div style="display:flex;gap:16px;margin-top:12px;margin-bottom:18px">
+        <span class="tag">Renovaciones</span>
+        <span class="tag">Gestión</span>
+      </div>
+
+      <div class="grid" role="list">
+        <a href="#" class="card" role="listitem" aria-label="Tickets ISM" data-section="tickets-ism">
+          <div class="card__title">Tickets ISM</div>
+          <div class="card__desc">Gestión y seguimiento</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Seguimiento de Pagos" data-section="seguimiento-pagos">
+          <div class="card__title">Seguimiento de Pagos</div>
+          <div class="card__desc">Estado de pagos de estudiantes</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Balances" data-section="balances">
+          <div class="card__title">Balances</div>
+          <div class="card__desc">Consulta de saldos</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Casos No Resueltos" data-section="casos-no-resueltos">
+          <div class="card__title">Casos No Resueltos</div>
+          <div class="card__desc">Seguimiento especial</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Situaciones Económicas" data-section="situaciones-economicas">
+          <div class="card__title">Situaciones Económicas</div>
+          <div class="card__desc">Manejo con familias</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Renovaciones" data-section="renovaciones">
+          <div class="card__title">Renovaciones</div>
+          <div class="card__desc">Proceso de renovación</div>
+        </a>
+      </div>
+
+      <div id="detail-panel" class="detail-panel" hidden aria-live="polite"></div>
+    </section>
+
+    <aside class="aside" aria-labelledby="resources-title">
+      <h3 id="resources-title">Recursos relacionados</h3>
+      <div class="resource">
+        <img src="images/cs.svg" alt="CS icon">
+        <div>
+          <div style="font-weight:600">Servicio al Cliente</div>
+          <a href="servicio-cliente.html">Ver sección</a>
+        </div>
+      </div>
+      <div class="resource">
+        <img src="images/pagos.png" alt="Pagos icon">
+        <div>
+          <div style="font-weight:600">Pagos</div>
+          <a href="pagos.html">Ver sección</a>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="js/section-panel.js"></script>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <div>© Kodland, 2026</div>
+      <div><a href="es.html">Volver</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gestión de Grupos | Kodland</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link href="images/icon.png" rel="icon" type="image/svg+xml"/>
+  <link href="images/es.png" rel="apple-touch-icon"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="https://www.kodland.org/es"><img src="images/Logo.svg" alt="Kodland logo"></a>
+      <nav>
+        <a class="cta" href="es.html">Volver al inicio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1 class="hero__title">Gestión de Grupos</h1>
+        <p class="hero__subtitle" style="margin-top:20px;">Buenas prácticas para iniciar cursos, trabajar la retención, manejar grupos PRM, premium o reducidos y reportar casos que afectan el ritmo de la clase.</p>
+        <ul>
+            <li class="hero__subtitle">Iniciar nuevos cursos correctamente</li>
+            <li class="hero__subtitle">Estrategias de retención</li>
+            <li class="hero__subtitle">Manejo de grupos PRM</li>
+            <li class="hero__subtitle">Grupos premium</li>
+            <li class="hero__subtitle">Grupos reducidos</li>
+            <li class="hero__subtitle">Reporte de casos que afectan el ritmo</li>
+        </ul>
+      </div>
+      <div>
+        <img src="images/gdg.webp" alt="Grupos ilustración" width="150" loading="lazy" style="border-radius:12px;margin-left:80px;margin-bottom:40px;height:auto;object-fit:contain;"/>
+      </div>
+    </section>
+
+    <section class="main" aria-labelledby="sections-title">
+      <h2 id="sections-title">Tipos de Grupos</h2>
+      <div style="display:flex;gap:16px;margin-top:12px;margin-bottom:18px">
+        <span class="tag">Renovaciones</span>
+        <span class="tag">Gestión</span>
+      </div>
+
+      <div class="grid" role="list">
+        <a href="#" class="card" role="listitem" aria-label="Iniciar Cursos" data-section="iniciar-cursos">
+          <div class="card__title">Iniciar Cursos</div>
+          <div class="card__desc">Buenas prácticas de inicio</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Retención" data-section="retencion-grupos">
+          <div class="card__title">Retención</div>
+          <div class="card__desc">Estrategias para mantener estudiantes</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Grupos PRM" data-section="grupos-prm">
+          <div class="card__title">Grupos PRM</div>
+          <div class="card__desc">Manejo especial</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Grupos Premium" data-section="grupos-premium">
+          <div class="card__title">Grupos Premium</div>
+          <div class="card__desc">Atención diferenciada</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Grupos Reducidos" data-section="grupos-reducidos">
+          <div class="card__title">Grupos Reducidos</div>
+          <div class="card__desc">Gestión de grupos pequeños</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Reportar Casos" data-section="reportar-casos">
+          <div class="card__title">Reportar Casos</div>
+          <div class="card__desc">Casos que afectan el ritmo</div>
+        </a>
+      </div>
+
+      <div id="detail-panel" class="detail-panel" hidden aria-live="polite"></div>
+    </section>
+
+    <aside class="aside" aria-labelledby="resources-title">
+      <h3 id="resources-title">Recursos relacionados</h3>
+      <div class="resource">
+        <img src="images/kbo.png" alt="BackOffice icon">
+        <div>
+          <div style="font-weight:600">BackOffice</div>
+          <a href="backoffice.html">Ver sección</a>
+        </div>
+      </div>
+      <div class="resource">
+        <img src="images/eyg.png" alt="Casos icon">
+        <div>
+          <div style="font-weight:600">Casos con Estudiantes</div>
+          <a href="casos-estudiantes.html">Ver sección</a>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="js/section-panel.js"></script>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <div>© Kodland, 2026</div>
+      <div><a href="es.html">Volver</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>

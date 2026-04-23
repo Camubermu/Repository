@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Servicio al Cliente | Kodland</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link href="images/icon.png" rel="icon" type="image/svg+xml"/>
+  <link href="images/es.png" rel="apple-touch-icon"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="https://www.kodland.org/es"><img src="images/Logo.svg" alt="Kodland logo"></a>
+      <nav>
+        <a class="cta" href="es.html">Volver al inicio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1 class="hero__title">Servicio al Cliente (CS)</h1>
+        <p class="hero__subtitle" style="margin-top:20px;">Cómo y cuándo gestionar casos con CS, manejo de tickets urgentes, seguimiento de solicitudes y qué hacer si no hay respuesta dentro de los tiempos establecidos.</p>
+        <ul>
+            <li class="hero__subtitle">Cuándo contactar a CS</li>
+            <li class="hero__subtitle">Manejo de tickets urgentes</li>
+            <li class="hero__subtitle">Seguimiento de solicitudes</li>
+            <li class="hero__subtitle">Tiempos de respuesta esperados</li>
+            <li class="hero__subtitle">Escalamiento de casos</li>
+            <li class="hero__subtitle">Procedimientos y protocolos</li>
+        </ul>
+      </div>
+      <div>
+        <img src="images/cs.svg" alt="CS ilustración" width="150" loading="lazy" style="border-radius:12px;margin-left:80px;margin-bottom:40px;height:auto;object-fit:contain;"/>
+      </div>
+    </section>
+
+    <section class="main" aria-labelledby="sections-title">
+      <h2 id="sections-title">Procedimientos CS</h2>
+      <div style="display:flex;gap:16px;margin-top:12px;margin-bottom:18px">
+        <span class="tag">Tickets</span>
+        <span class="tag">Canal</span>
+      </div>
+
+      <div class="grid" role="list">
+        <a href="#" class="card" role="listitem" aria-label="Cuándo Contactar" data-section="cuando-contactar">
+          <div class="card__title">Cuándo Contactar</div>
+          <div class="card__desc">Casos que requieren CS</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Tickets Urgentes" data-section="tickets-urgentes">
+          <div class="card__title">Tickets Urgentes</div>
+          <div class="card__desc">Manejo de prioridades</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Seguimiento" data-section="seguimiento-cs">
+          <div class="card__title">Seguimiento</div>
+          <div class="card__desc">Estado de solicitudes</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Tiempos" data-section="tiempos-cs">
+          <div class="card__title">Tiempos de Respuesta</div>
+          <div class="card__desc">Expectativas por tipo de caso</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Escalamiento" data-section="escalamiento">
+          <div class="card__title">Escalamiento</div>
+          <div class="card__desc">Qué hacer sin respuesta</div>
+        </a>
+      </div>
+
+      <div id="detail-panel" class="detail-panel" hidden aria-live="polite"></div>
+    </section>
+
+    <aside class="aside" aria-labelledby="resources-title">
+      <h3 id="resources-title">Recursos relacionados</h3>
+      <div class="resource">
+        <img src="images/ism.png" alt="ISM icon">
+        <div>
+          <div style="font-weight:600">Ventas Internas (ISM)</div>
+          <a href="ventas-internas.html">Ver sección</a>
+        </div>
+      </div>
+      <div class="resource">
+        <img src="images/cyc.webp" alt="Comunicación icon">
+        <div>
+          <div style="font-weight:600">Comunicación y Canales</div>
+          <a href="comunicacion.html">Ver sección</a>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="js/section-panel.js"></script>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <div>© Kodland, 2026</div>
+      <div><a href="es.html">Volver</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pagos | Kodland</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link href="images/icon.png" rel="icon" type="image/svg+xml"/>
+  <link href="images/es.png" rel="apple-touch-icon"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="https://www.kodland.org/es"><img src="images/Logo.svg" alt="Kodland logo"></a>
+      <nav>
+        <a class="cta" href="es.html">Volver al inicio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1 class="hero__title">Pagos</h1>
+        <p class="hero__subtitle" style="margin-top:20px;">Cómo funcionan los pagos, fechas, registro de clases extras, errores frecuentes, historial de pagos, comisiones y a dónde reportar inconsistencias.</p>
+        <ul>
+            <li class="hero__subtitle">Cómo funcionan los pagos</li>
+            <li class="hero__subtitle">Fechas de depósito</li>
+            <li class="hero__subtitle">Registro de clases extras</li>
+            <li class="hero__subtitle">Errores frecuentes</li>
+            <li class="hero__subtitle">Historial de pagos</li>
+            <li class="hero__subtitle">Comisiones y bonificaciones</li>
+            <li class="hero__subtitle">Reportar inconsistencias</li>
+        </ul>
+      </div>
+      <div>
+        <img src="images/pagos.png" alt="Pagos ilustración" width="150" loading="lazy" style="border-radius:12px;margin-left:80px;margin-bottom:40px;height:auto;object-fit:contain;"/>
+      </div>
+    </section>
+
+    <section class="main" aria-labelledby="sections-title">
+      <h2 id="sections-title">Información de Pagos</h2>
+      <div style="display:flex;gap:16px;margin-top:12px;margin-bottom:18px">
+        <span class="tag">Depósitos</span>
+        <span class="tag">Fechas</span>
+      </div>
+
+      <div class="grid" role="list">
+        <a href="#" class="card" role="listitem" aria-label="Cómo Funcionan" data-section="como-funcionan">
+          <div class="card__title">Cómo Funcionan</div>
+          <div class="card__desc">Sistema de pagos</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Fechas" data-section="fechas-pagos">
+          <div class="card__title">Fechas de Depósito</div>
+          <div class="card__desc">Calendario de pagos</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Clases Extras" data-section="clases-extras-pagos">
+          <div class="card__title">Clases Extras</div>
+          <div class="card__desc">Registro para pagos</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Errores Frecuentes" data-section="errores-frecuentes">
+          <div class="card__title">Errores Frecuentes</div>
+          <div class="card__desc">Problemas comunes</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Historial" data-section="historial">
+          <div class="card__title">Historial de Pagos</div>
+          <div class="card__desc">Consulta de registros</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Comisiones" data-section="comisiones-pagos">
+          <div class="card__title">Comisiones</div>
+          <div class="card__desc">Bonificaciones y extras</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Inconsistencias" data-section="inconsistencias">
+          <div class="card__title">Inconsistencias</div>
+          <div class="card__desc">Dónde reportar problemas</div>
+        </a>
+      </div>
+
+      <div id="detail-panel" class="detail-panel" hidden aria-live="polite"></div>
+    </section>
+
+    <aside class="aside" aria-labelledby="resources-title">
+      <h3 id="resources-title">Recursos relacionados</h3>
+      <div class="resource">
+        <img src="images/pyc.webp" alt="RRHH icon">
+        <div>
+          <div style="font-weight:600">Recursos Humanos</div>
+          <a href="rrhh.html">Ver sección</a>
+        </div>
+      </div>
+      <div class="resource">
+        <img src="images/mdt.webp" alt="Métricas icon">
+        <div>
+          <div style="font-weight:600">Métricas del Tutor</div>
+          <a href="metricas.html">Ver sección</a>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="js/section-panel.js"></script>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <div>© Kodland, 2026</div>
+      <div><a href="es.html">Volver</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>

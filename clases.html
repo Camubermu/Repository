@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clases y Sesiones | Kodland</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link href="images/icon.png" rel="icon" type="image/svg+xml"/>
+  <link href="images/es.png" rel="apple-touch-icon"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="https://www.kodland.org/es"><img src="images/Logo.svg" alt="Kodland logo"></a>
+      <nav>
+        <a class="cta" href="es.html">Volver al inicio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1 class="hero__title">Clases y Sesiones</h1>
+        <p class="hero__subtitle" style="margin-top:20px;">Encuentra todo lo relacionado con la preparación, desarrollo y cierre de clases: asistencia, observaciones, seguimiento del progreso y buenas prácticas durante las sesiones.</p>
+        <ul>
+            <li class="hero__subtitle">Preparación de clases y materiales necesarios</li>
+            <li class="hero__subtitle">Registro de asistencia y seguimiento</li>
+            <li class="hero__subtitle">Observaciones durante las sesiones</li>
+            <li class="hero__subtitle">Buenas prácticas para el desarrollo de clases</li>
+            <li class="hero__subtitle">Cierre de clases y retroalimentación</li>
+        </ul>
+      </div>
+      <div>
+        <img src="images/cys.png" alt="Clases ilustración" width="150" loading="lazy" style="border-radius:12px;margin-left:80px;margin-bottom:40px;height:auto;object-fit:contain;"/>
+      </div>
+    </section>
+
+    <section class="main" aria-labelledby="sections-title">
+      <h2 id="sections-title">Secciones dentro de Clases</h2>
+      <div style="display:flex;gap:16px;margin-top:12px;margin-bottom:18px">
+        <span class="tag">Seguimiento</span>
+        <span class="tag">Organización</span>
+      </div>
+
+      <div class="grid" role="list">
+        <a href="#" class="card" role="listitem" aria-label="Preparación" data-section="preparacion">
+          <div class="card__title">Preparación</div>
+          <div class="card__desc">Materiales y recursos necesarios antes de cada clase</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Asistencia" data-section="asistencia">
+          <div class="card__title">Asistencia</div>
+          <div class="card__desc">Registro y seguimiento de asistencia de estudiantes</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Desarrollo" data-section="desarrollo">
+          <div class="card__title">Desarrollo</div>
+          <div class="card__desc">Buenas prácticas durante la sesión de clase</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Cierre" data-section="cierre">
+          <div class="card__title">Cierre</div>
+          <div class="card__desc">Retroalimentación y seguimiento del progreso</div>
+        </a>
+      </div>
+
+      <div id="detail-panel" class="detail-panel" hidden aria-live="polite"></div>
+    </section>
+
+    <aside class="aside" aria-labelledby="resources-title">
+      <h3 id="resources-title">Recursos relacionados</h3>
+      <div class="resource">
+        <img src="images/kbo.png" alt="BackOffice icon">
+        <div>
+          <div style="font-weight:600">BackOffice</div>
+          <a href="backoffice.html">Ver sección</a>
+        </div>
+      </div>
+      <div class="resource">
+        <img src="images/gdg.webp" alt="Grupos icon">
+        <div>
+          <div style="font-weight:600">Gestión de Grupos</div>
+          <a href="gestion-grupos.html">Ver sección</a>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="js/section-panel.js"></script>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <div>© Kodland, 2026</div>
+      <div><a href="es.html">Volver</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>

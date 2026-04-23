@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spreadsheets y Workspace | Kodland</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link href="images/icon.png" rel="icon" type="image/svg+xml"/>
+  <link href="images/es.png" rel="apple-touch-icon"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="https://www.kodland.org/es"><img src="images/Logo.svg" alt="Kodland logo"></a>
+      <nav>
+        <a class="cta" href="es.html">Volver al inicio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1 class="hero__title">Spreadsheets y Workspace</h1>
+        <p class="hero__subtitle" style="margin-top:20px;">Información clave sobre hojas de cálculo de grupos, postulaciones, asignaciones, actualizaciones y criterios que se tienen en cuenta para otorgar nuevos grupos.</p>
+        <ul>
+            <li class="hero__subtitle">Hojas de cálculo de grupos activos</li>
+            <li class="hero__subtitle">Proceso de postulaciones y asignaciones</li>
+            <li class="hero__subtitle">Criterios para nuevos grupos</li>
+            <li class="hero__subtitle">Actualización de información</li>
+            <li class="hero__subtitle">Herramientas de Google Workspace</li>
+        </ul>
+      </div>
+      <div>
+        <img src="images/syw.webp" alt="Spreadsheets ilustración" width="150" loading="lazy" style="border-radius:12px;margin-left:80px;margin-bottom:40px;height:auto;object-fit:contain;"/>
+      </div>
+    </section>
+
+    <section class="main" aria-labelledby="sections-title">
+      <h2 id="sections-title">Hojas de Cálculo</h2>
+      <div style="display:flex;gap:16px;margin-top:12px;margin-bottom:18px">
+        <span class="tag">Cifras</span>
+        <span class="tag">Aplicaciones</span>
+      </div>
+
+      <div class="grid" role="list">
+        <a href="#" class="card" role="listitem" aria-label="Grupos" data-section="hojas-grupos">
+          <div class="card__title">Hojas de Grupos</div>
+          <div class="card__desc">Información de grupos activos</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Postulaciones" data-section="postulaciones">
+          <div class="card__title">Postulaciones</div>
+          <div class="card__desc">Proceso de asignación de grupos</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Criterios" data-section="criterios">
+          <div class="card__title">Criterios de Asignación</div>
+          <div class="card__desc">Qué se considera para nuevos grupos</div>
+        </a>
+        <a href="#" class="card" role="listitem" aria-label="Workspace" data-section="workspace">
+          <div class="card__title">Google Workspace</div>
+          <div class="card__desc">Herramientas y aplicaciones</div>
+        </a>
+      </div>
+
+      <div id="detail-panel" class="detail-panel" hidden aria-live="polite"></div>
+    </section>
+
+    <aside class="aside" aria-labelledby="resources-title">
+      <h3 id="resources-title">Recursos relacionados</h3>
+      <div class="resource">
+        <img src="images/kbo.png" alt="BackOffice icon">
+        <div>
+          <div style="font-weight:600">BackOffice</div>
+          <a href="backoffice.html">Ver sección</a>
+        </div>
+      </div>
+      <div class="resource">
+        <img src="images/gdg.webp" alt="Grupos icon">
+        <div>
+          <div style="font-weight:600">Gestión de Grupos</div>
+          <a href="gestion-grupos.html">Ver sección</a>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <script src="js/section-panel.js"></script>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <div>© Kodland, 2026</div>
+      <div><a href="es.html">Volver</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>
